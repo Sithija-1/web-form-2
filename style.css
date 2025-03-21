@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    form{
+        text-align: center;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        margin: 15% 25% 0 25%;
+        padding: 50px 0 50px 0;
+        background-color:transparent;
+        color: white;
+        backdrop-filter:blur(8px);
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid;
+        width: 310px;
+        background: transparent;
+        color: white;
+        outline: none;
+        
+    }
+    input::placeholder{
+        color: white;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    button{
+        width: 300px;
+        background: white;
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+        border: none;
+    }
+    body{
+        background: url(a.jpg);
+
+    }
+    @keyframes anime{
+        
+    }
